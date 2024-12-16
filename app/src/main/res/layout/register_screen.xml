@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".RegisterScreen">
+
+    <ImageView
+        android:id="@+id/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/cinemaImage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@id/shape">
+
+        <!-- Register Title -->
+        <TextView
+            android:id="@+id/signuptxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/jetblack"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Sign Up"
+            android:textSize="30sp"
+            android:gravity="center" />
+
+        <!-- Username Field -->
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@drawable/user"
+            android:hint="Enter Username"
+            android:inputType="text"
+            android:drawablePadding="8dp"
+            android:padding="11dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/ebony"
+            android:textSize="20sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp" />
+
+        <!-- Email Field -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@drawable/email"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:drawablePadding="8dp"
+            android:padding="11dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/ebony"
+            android:textSize="20sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp" />
+
+        <!-- Password Field -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Enter Password"
+            android:drawableStart="@drawable/password"
+            android:textColor="@color/black"
+            android:textColorHint="@color/ebony"
+            android:drawablePadding="8dp"
+            android:textSize="20sp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="@color/white"
+            android:padding="11dp"
+            android:inputType="textPassword"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp" />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"
+            android:padding="11dp"
+            android:textSize="20sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp" />
+
+    </LinearLayout>
+</RelativeLayout>

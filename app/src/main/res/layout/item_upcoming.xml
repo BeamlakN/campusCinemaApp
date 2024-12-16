@@ -1,0 +1,23 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <GridLayout
+        android:id="@+id/gridUpcomingMovies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:orientation="horizontal">
+
+        <!-- Replace RecyclerView with GridLayout items -->
+        <!-- Example item layout (you can adjust based on your needs) -->
+        <include layout="@layout/item_upcoming_movie" />
+        <include layout="@layout/item_upcoming_movie" />
+        <!-- Add more items as needed -->
+
+    </GridLayout>
+</ScrollView>

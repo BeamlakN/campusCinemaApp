@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Cinema</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string-array name="movieName">
+        <item >Rebel Moon</item>
+        <item >Damsel</item>
+        <item >Migration</item>
+        <item >Wish</item>
+        <item >The BeeKeeper</item>
+        <item >The Creator</item>
+        <item >Operation Fortune</item>
+        <item >Road House</item>
+    </string-array>
+    <string-array name="show_times">
+        <item>7:00 PM</item>
+        <item>8:00 PM</item>
+        <item>9:00 PM</item>
+    </string-array>
+    <string name="profile_image_desc">Profile Image Description</string>
+    <string-array name="dates">
+        <item>12 June 2024</item>
+        <item>13 June 2024</item>
+        <item>14 June 2024</item>
+    </string-array>
+    <string-array name="runtimes">
+        <item>2h 30m</item>
+        <item>2h 15m</item>
+        <item>1h 45m</item>
+    </string-array>
+    <!-- Movie Titles -->
+    <string name="movie_rebel_moon">Rebel Moon</string>
+    <string name="movie_damsel">Damsel</string>
+    <string name="movie_migration">Migration</string>
+    <string name="movie_wish">Wish</string>
+    <string name="movie_beekeeper">The BeeKeeper</string>
+    <string name="movie_creator">The Creator</string>
+    <string name="movie_operation_fortune">Operation Fortune</string>
+    <string name="movie_road_house">Road House</string>
+    <string name="movie_if">If</string>
+    <string name="movie_exhuma">Exhuma</string>
+    <string name="movie_roleplay">Role Play</string>
+    <string name="movie_upgraded">Upgraded</string>
+
+    <!-- Movie Details -->
+    <string name="movie_rebel_moon_details">Release Date: December 25, 2023\nGenre: Sci-Fi, Action\nRating: 7.5/10\nDescription: In a distant future, a band of rebels fights against oppressive forces on the moon.</string>
+
+    <string name="movie_damsel_details">Release Date: January 15, 2024\nGenre: Drama\nRating: 8.2/10\nDescription: A young woman sets out on a journey to rescue her sister from bandits in the Wild West.</string>
+
+    <string name="movie_migration_details">Release Date: March 10, 2024\nGenre: Thriller\nRating: 8.9/10\nDescription: A gripping tale of survival as a group of migrants navigate through treacherous terrain and unforeseen dangers.</string>
+
+    <string name="movie_wish_details">Release Date: February 5, 2024\nGenre: Fantasy, Adventure\nRating: 7.8/10\nDescription: A magical adventure unfolds as a young boy discovers a mysterious wish-granting artifact.</string>
+
+    <string name="movie_beekeeper_details">Release Date: April 20, 2024\nGenre: Mystery, Drama\nRating: 8.0/10\nDescription: An enigmatic beekeeper finds himself embroiled in a web of secrets and intrigue in a quaint countryside.</string>
+
+    <string name="movie_creator_details">Release Date: May 15, 2024\nGenre: Sci-Fi, Thriller\nRating: 8.5/10\nDescription: In a world where technology shapes reality, one creator challenges the limits of artificial intelligence.</string>
+
+    <string name="movie_operation_fortune_details">Release Date: June 30, 2024\nGenre: Action, Comedy\nRating: 7.6/10\nDescription: A team of skilled operatives embark on a mission filled with danger, deception, and unexpected humor.</string>
+
+    <string name="movie_road_house_details">Release Date: July 25, 2024\nGenre: Action, Adventure\nRating: 7.9/10\nDescription: A lone drifter takes on a ruthless gang in a battle for justice and redemption on the open road.</string>
+
+    <string name="movie_roleplay_details">Release Date: July 20, 2024\nGenre: Action, Adventure\nRating: 7.9/10\nDescription: Join a group of elite agents as they navigate a high-stakes mission that blurs the lines between reality and simulation.</string>
+
+    <string name="movie_upgraded_details">Release Date: October 10, 2024\nGenre: Sci-Fi, Action\nRating: 8.5/10\nDescription: Witness the future of technology as humanity battles to control the power of advanced AI and cybernetic enhancements in a race against time.</string>
+
+    <string name="movie_exhuma_details">Release Date: October 25, 2023\nGenre: Mystery, Horror\nRating: 7.7/10\nDescription: Exhuma introduces audiences to a spine-chilling tale of paranormal occurrences that haunt a secluded mansion, sending shivers down the spine of all who dare to enter.</string>
+
+    <string name="movie_if_details">Release Date: November 12, 2023\nGenre: Sci-Fi, Drama\nRating: 8.1/10\nDescription: IF explores the ethical dilemmas and moral complexities faced by pioneers in the field of artificial intelligence, questioning the very nature of humanity itself.</string>
+
+</resources>
